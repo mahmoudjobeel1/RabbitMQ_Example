@@ -8,6 +8,7 @@ public class LogOutCommand implements CommandInterface {
 
     @Override
     public void execute(CustomMessage message) {
+        System.out.println("I am executing the LogOutCommand");
         /*
         * Here we can send a URL request to the inside server to log out the user
         * Or we can reply the other service since we have the message with data
